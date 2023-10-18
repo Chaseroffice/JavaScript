@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My First JavaScript Exercise </h1>
+
+<h2> Powered by EGSS</h2>
+
+<button type="button"
+onclick="document.getElementById('ex1').innerHTML = Date()">
+Display Date and Time</button>
+
+<button type="button"
+onclick="document.getElementById('ex1').innerHTML ='' ">
+Click me to reset .</button>
+<p id="ex1"></p>
+
+</body>
+</html> 
